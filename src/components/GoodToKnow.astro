@@ -1,0 +1,23 @@
+---
+import { Icon } from "astro-icon/components";
+import SectionHeader from "./SectionHeader.astro";
+import gtk from "../content/good-to-know.json";
+---
+
+<section class="flex flex-col items-center gap-[60px] bg-background-warm px-[120px] py-[100px] max-lg:px-12 max-md:px-6">
+  <SectionHeader overline={gtk.overline} title={gtk.title} />
+
+  <div class="flex w-full gap-8 max-lg:flex-col">
+    {gtk.items.map((item) => (
+      <div class="flex flex-1 flex-col gap-4 rounded-sm border border-divider bg-background px-7 py-8">
+        <Icon name={`lucide:${item.icon}`} class="size-7 text-secondary" />
+        <h3 class="font-heading text-lg font-semibold text-primary-light">
+          {item.title}
+        </h3>
+        <p class="font-body text-sm leading-[1.7] text-neutral">
+          {item.description}
+        </p>
+      </div>
+    ))}
+  </div>
+</section>

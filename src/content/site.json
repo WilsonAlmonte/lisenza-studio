@@ -1,0 +1,33 @@
+{
+  "banner": {
+    "text": "Este es un demo de tu nueva página web — Creado por KwiHub"
+  },
+  "nav": {
+    "links": [
+      { "label": "Productos", "href": "#productos" },
+      { "label": "Aromas", "href": "#aromas" },
+      { "label": "Nuestra Historia", "href": "#historia" }
+    ],
+    "logo": "LISENZA",
+    "logoSub": "S T U D I O",
+    "langToggle": "ES / EN"
+  },
+  "hero": {
+    "headline": "Aromas que transforman tus espacios",
+    "subheadline": "Velas, difusores y sprays artesanales con cera de soya 100% natural. Hechos a mano en República Dominicana.",
+    "cta": "Descubre Nuestros Aromas",
+    "bgImage": "/images/hero-bg.png"
+  },
+  "footer": {
+    "logo": "LISENZA STUDIO",
+    "tagline": "Aromas artesanales para tus espacios",
+    "phone": "(829) 775-6348",
+    "email": "lisenza.studio@gmail.com",
+    "instagram": "@lisenza.studio",
+    "copyright": "© 2025 Lisenza Studio. Santo Domingo, República Dominicana."
+  },
+  "whatsapp": {
+    "url": "https://wa.me/18297756348",
+    "cta": "Escríbenos por WhatsApp"
+  }
+}

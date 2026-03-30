@@ -1,0 +1,38 @@
+---
+interface Props {
+  number: string;
+  name: string;
+  description: string;
+  notes: string;
+  image: string;
+  imagePosition: "left" | "right";
+}
+
+const { number, name, description, notes, image, imagePosition } = Astro.props;
+---
+
+<div class:list={[
+  "flex h-[480px] px-[60px] max-lg:h-auto max-lg:flex-col max-lg:px-6",
+  imagePosition === "right" && "flex-row-reverse",
+]}>
+  <!-- Image -->
+  <div class="h-[480px] w-[720px] flex-shrink-0 overflow-hidden max-lg:h-[300px] max-lg:w-full">
+    <img src={image} alt={name} class="h-full w-full object-cover" loading="lazy" />
+  </div>
+
+  <!-- Content -->
+  <div class="flex flex-1 flex-col justify-center gap-6 bg-primary px-[100px] py-[60px] max-lg:px-8 max-lg:py-10">
+    <span class="font-body text-[72px] font-bold leading-none tracking-tight text-accent/20 max-md:text-5xl">
+      {number}
+    </span>
+    <h3 class="font-heading text-[30px] font-semibold text-white max-md:text-2xl">
+      {name}
+    </h3>
+    <p class="font-display text-[15px] italic leading-[1.8] text-white/75">
+      {description}
+    </p>
+    <p class="font-body text-[11px] leading-[1.6] tracking-wide text-accent">
+      {notes}
+    </p>
+  </div>
+</div>

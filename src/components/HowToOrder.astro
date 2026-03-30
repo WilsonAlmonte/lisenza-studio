@@ -1,0 +1,46 @@
+---
+import { Icon } from "astro-icon/components";
+import SectionHeader from "./SectionHeader.astro";
+import howTo from "../content/how-to-order.json";
+import site from "../content/site.json";
+---
+
+<section class="flex flex-col items-center gap-[60px] bg-dark px-20 py-[100px] max-lg:px-12 max-md:px-6">
+  <SectionHeader
+    overline={howTo.overline}
+    title={howTo.title}
+    titleColor="text-white"
+  />
+
+  <!-- Steps -->
+  <div class="flex w-full gap-8 px-10 max-lg:flex-col max-lg:px-0">
+    {howTo.steps.map((step) => (
+      <div class="flex flex-1 flex-col items-center gap-6 rounded-2xl border border-accent/[0.08] bg-primary px-9 py-10">
+        <div class="h-[3px] w-10 rounded-sm bg-accent"></div>
+        <div class="flex size-[72px] items-center justify-center rounded-full bg-secondary/[0.13]">
+          <Icon name={`lucide:${step.icon}`} class="size-8 text-accent" />
+        </div>
+        <span class="font-heading text-sm font-semibold tracking-[4px] text-accent">
+          {step.number}
+        </span>
+        <h3 class="text-center font-heading text-xl font-semibold text-white">
+          {step.title}
+        </h3>
+        <p class="text-center font-body text-sm leading-[1.7] text-white/60">
+          {step.description}
+        </p>
+      </div>
+    ))}
+  </div>
+
+  <!-- WhatsApp CTA -->
+  <a
+    href={site.whatsapp.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="inline-flex items-center gap-3 rounded bg-whatsapp px-12 py-[18px] font-body text-[15px] font-semibold tracking-wide text-white transition-opacity hover:opacity-90"
+  >
+    <Icon name="lucide:message-circle" class="size-5" />
+    {site.whatsapp.cta}
+  </a>
+</section>

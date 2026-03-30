@@ -11,6 +11,9 @@ importers:
       '@fontsource/libre-baskerville':
         specifier: ^5.2.10
         version: 5.2.10
+      '@fontsource/questrial':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@fontsource/work-sans':
         specifier: ^5.2.8
         version: 5.2.8
@@ -394,6 +397,9 @@ packages:
 
   '@fontsource/libre-baskerville@5.2.10':
     resolution: {integrity: sha512-Y/bGj4cOdWhAxU4+sBPen3MB5Og3t/WvezVL+05CJ7cvhDQUKpQFUuw/hm1IQKRc9u0lWs8VP2MKDOK2uQtloQ==}
+
+  '@fontsource/questrial@5.2.8':
+    resolution: {integrity: sha512-KetCQoMwGVGRu7k71pDL3R9xQBaFw2jj7yL5KLLv+69RoGqYGldebfGiHspOjaZvSe355lLJ5qbatdYq+Bl+ZA==}
 
   '@fontsource/work-sans@5.2.8':
     resolution: {integrity: sha512-6LaHjVVgts+rnrcqvEkP2+iUB/jw1oDSYsGO0+TltAhnWki9Hnf/UGpgMQh2jcm0GEH8VqCPnq4PpmHLFzxXtQ==}
@@ -2274,6 +2280,8 @@ snapshots:
     optional: true
 
   '@fontsource/libre-baskerville@5.2.10': {}
+
+  '@fontsource/questrial@5.2.8': {}
 
   '@fontsource/work-sans@5.2.8': {}
 

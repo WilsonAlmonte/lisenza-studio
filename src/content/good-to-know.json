@@ -1,0 +1,21 @@
+{
+  "overline": "BUENO SABER",
+  "title": "Información adicional",
+  "items": [
+    {
+      "icon": "flask-conical",
+      "title": "¿No sabes qué aroma elegir?",
+      "description": "Solicita nuestro kit de mini muestras gratuitas y descubre tu fragancia favorita. Solo pagas el costo de envío hasta tu ubicación."
+    },
+    {
+      "icon": "gift",
+      "title": "¿Regalos?",
+      "description": "¿Tu orden es para obsequiar? Incluimos empaque de regalo sin costo adicional en tu orden."
+    },
+    {
+      "icon": "palette",
+      "title": "Personalización",
+      "description": "Si deseas adquirir productos personalizados con tu marca o para eventos especiales, contáctanos."
+    }
+  ]
+}

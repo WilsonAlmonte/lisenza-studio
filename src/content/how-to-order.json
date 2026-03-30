@@ -1,0 +1,24 @@
+{
+  "overline": "CÓMO ORDENAR",
+  "title": "Tu fragancia favorita, en tres simples pasos",
+  "steps": [
+    {
+      "number": "01",
+      "title": "Confirmar disponibilidad",
+      "description": "Escríbenos por WhatsApp para confirmar disponibilidad, aroma y presentación.",
+      "icon": "message-circle"
+    },
+    {
+      "number": "02",
+      "title": "Realizar pago",
+      "description": "Confirma tu orden realizando el pago vía transferencia (Banco BHD o Banco Popular).",
+      "icon": "credit-card"
+    },
+    {
+      "number": "03",
+      "title": "Coordinar envío",
+      "description": "Completa tus datos de envío. El delivery tiene un costo adicional desde RD$250.",
+      "icon": "truck"
+    }
+  ]
+}

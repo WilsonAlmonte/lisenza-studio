@@ -1,0 +1,15 @@
+---
+import { Icon } from "astro-icon/components";
+import site from "../content/site.json";
+---
+
+<a
+  href={site.whatsapp.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="WhatsApp"
+  class="fixed bottom-6 right-6 z-50 flex size-[60px] items-center justify-center rounded-full bg-whatsapp shadow-lg transition-transform hover:scale-110"
+  style="box-shadow: 0 4px 16px rgba(0,0,0,0.25);"
+>
+  <Icon name="lucide:message-circle" class="size-7 text-white" />
+</a>

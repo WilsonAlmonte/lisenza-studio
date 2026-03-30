@@ -1,0 +1,39 @@
+---
+import { Icon } from "astro-icon/components";
+import site from "../content/site.json";
+---
+
+<section class="relative h-[720px] w-full overflow-hidden max-md:h-[600px]">
+  <!-- Background image -->
+  <img
+    src={site.hero.bgImage}
+    alt=""
+    class="absolute inset-0 h-full w-full object-cover"
+    loading="eager"
+  />
+
+  <!-- Dark gradient overlay -->
+  <div
+    class="absolute inset-0"
+    style="background: linear-gradient(to bottom, #1A1A1AE6, #1A1A1ACC 50%, #1A1A1A99);"
+  ></div>
+
+  <!-- Content -->
+  <div class="relative flex h-full items-center px-[120px] max-lg:px-12 max-md:px-6">
+    <div class="flex max-w-[650px] flex-col gap-7">
+      <h1 class="font-heading text-[80px] font-semibold leading-[1.1] text-white max-lg:text-6xl max-md:text-[44px]">
+        {site.hero.headline}
+      </h1>
+      <p class="max-w-[520px] font-display text-[17px] leading-[1.7] text-white/80">
+        {site.hero.subheadline}
+      </p>
+      <a
+        href="#productos"
+        class="inline-flex w-fit items-center gap-2.5 bg-secondary px-10 py-4 font-body text-sm font-semibold tracking-wide text-white transition-opacity hover:opacity-90"
+      >
+        {site.hero.cta}
+        <Icon name="lucide:arrow-right" class="size-4" />
+      </a>
+    </div>
+  </div>
+</section>
