@@ -4,9 +4,9 @@ import ProductCard from "./ProductCard.astro";
 import products from "../content/products.json";
 ---
 
-<section id="productos" class="flex flex-col items-center gap-[60px] px-[120px] py-[100px] max-lg:px-12 max-md:px-6">
+<section id="productos" class="flex flex-col items-center gap-[60px] px-[120px] py-[100px] max-lg:px-12 max-lg:py-16 max-md:gap-10 max-md:px-6 max-md:py-[60px]">
   <SectionHeader overline={products.overline} title={products.title} />
-  <div class="flex w-full justify-center gap-10 max-lg:flex-col max-lg:items-center">
+  <div class="grid w-full grid-cols-3 gap-10 max-lg:grid-cols-2 max-lg:gap-8 max-md:grid-cols-1 max-md:gap-8">
     {products.items.map((item) => (
       <ProductCard
         name={item.name}
@@ -14,7 +14,6 @@ import products from "../content/products.json";
         description={item.description}
         price={item.price}
         image={item.image}
-        btnText={item.btnText}
       />
     ))}
   </div>

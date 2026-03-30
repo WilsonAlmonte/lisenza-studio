@@ -3,16 +3,16 @@ import FragranceRow from "./FragranceRow.astro";
 import fragrances from "../content/fragrances.json";
 ---
 
-<section id="aromas" class="flex flex-col items-center gap-10 bg-primary py-[100px]">
+<section id="aromas" class="flex flex-col items-center gap-10 bg-primary py-[100px] max-lg:gap-8 max-lg:py-16 max-md:gap-6 max-md:py-[60px]">
   <!-- Header -->
-  <div class="flex flex-col items-center justify-center gap-4 px-[120px] py-0 max-md:px-6">
-    <span class="font-body text-[11px] font-medium tracking-[6px] text-accent">
+  <div class="flex flex-col items-center justify-center gap-4 px-[120px] py-0 max-lg:px-12 max-md:gap-3 max-md:px-6">
+    <span class="font-body text-[11px] font-medium tracking-[6px] text-accent max-md:text-[10px] max-md:tracking-[3px]">
       {fragrances.overline}
     </span>
-    <h2 class="text-center font-heading text-[44px] font-semibold tracking-tight text-white max-md:text-3xl">
+    <h2 class="text-center font-heading text-[44px] font-normal tracking-tight text-white max-lg:text-[36px] max-md:text-[26px]">
       {fragrances.title}
     </h2>
-    <div class="h-px w-20 bg-accent"></div>
+    <div class="h-px w-20 bg-accent max-md:w-10"></div>
   </div>
 
   <!-- Fragrance rows with dividers -->
@@ -27,7 +27,7 @@ import fragrances from "../content/fragrances.json";
         imagePosition={item.imagePosition as "left" | "right"}
       />
       {i < fragrances.items.length - 1 && (
-        <div class="w-full px-[120px] max-md:px-6">
+        <div class="w-full px-[120px] max-lg:px-12 max-md:px-6">
           <div class="h-px w-full bg-accent/[0.13]"></div>
         </div>
       )}

@@ -7,7 +7,7 @@
       "name": "Lavanda & Ámbar",
       "description": "Ámbar egipcio y lavanda francesa en armonía: un aroma sofisticado, sereno y atemporal.",
       "notes": "Notas: Lavanda francesa, ámbar egipcio, mirra negra, haba tonka, almizcle egipcio, salvia",
-      "image": "/images/frag-lavanda.png",
+      "image": "/assets/aromas/lavanda.jpg",
       "imagePosition": "left"
     },
     {
@@ -15,7 +15,7 @@
       "name": "Lino Blanco",
       "description": "Como un abrazo de telas recién lavadas, flores suaves y acordes de algodón para llenar tus días en frescura y ligereza cotidiana.",
       "notes": "Notas: Cítrico, Melocotón, Lirio, Jazmín, Rosa, Verde, Madera, Ámbar, Almizcle",
-      "image": "/images/frag-lino.png",
+      "image": "/assets/aromas/linoblanco.jpg",
       "imagePosition": "right"
     },
     {
@@ -23,7 +23,7 @@
       "name": "Caoba & Coco",
       "description": "Caoba y coco en armonía, suavizados con sándalo y vainilla, realzados por un toque cítrico contemporáneo.",
       "notes": "Notas: Limón, Coco, Vainilla, Sándalo, Almizcle",
-      "image": "/images/frag-caoba.png",
+      "image": "/assets/aromas/caoba-coco.jpg",
       "imagePosition": "left"
     },
     {
@@ -31,7 +31,7 @@
       "name": "Palo Santo & Pachulí",
       "description": "Sándalo y pachulí dulce, realzados por especias cálidas, en un aroma elegante y acogedor.",
       "notes": "Notas: Pimienta negra, clavo, nuez moscada, Lavanda, pachulí, vainilla, ámbar, sándalo, olíbano",
-      "image": "/images/frag-palo-santo.png",
+      "image": "/assets/aromas/palosanto-pachuli.jpg",
       "imagePosition": "right"
     },
     {
@@ -39,7 +39,7 @@
       "name": "Vainilla",
       "description": "Vainilla mantequillosa, maple dorado y coco tostado en una fragancia dulce y reconfortante.",
       "notes": "Notas: Mantequilla, Coco, Vainilla, Arce",
-      "image": "/images/frag-vainilla.png",
+      "image": "/assets/aromas/vainilla.jpg",
       "imagePosition": "left"
     },
     {
@@ -47,7 +47,7 @@
       "name": "Rocío & Té",
       "description": "Pepino, lima y flores suaves en una fragancia limpia, fresca y luminosa.",
       "notes": "Notas: Naranja, Lima, Hojas verdes, Pepino, Rosa, Jazmín, Almizcle",
-      "image": "/images/frag-rocio.png",
+      "image": "/assets/aromas/rocio-te.jpg",
       "imagePosition": "right"
     },
     {
@@ -55,7 +55,7 @@
       "name": "Eucalipto & Menta",
       "description": "Menta verde y eucalipto en una fragancia fresca, herbal y energizante.",
       "notes": "Notas: Limón, Eucalipto, Menta verde, Almizcle",
-      "image": "/images/frag-eucalipto.png",
+      "image": "/assets/aromas/eucalipto.jpg",
       "imagePosition": "left"
     }
   ]

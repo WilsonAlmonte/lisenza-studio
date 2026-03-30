@@ -2,34 +2,34 @@
 import about from "../content/about.json";
 ---
 
-<section id="historia" class="flex bg-background max-lg:flex-col">
+<section id="historia" class="flex bg-background max-md:flex-col">
   <!-- Owner photo -->
-  <div class="h-[563px] w-[580px] flex-shrink-0 overflow-hidden max-lg:h-[400px] max-lg:w-full">
+  <div class="h-[563px] w-[580px] flex-shrink-0 overflow-hidden max-lg:h-[450px] max-lg:w-[42%] max-md:h-[320px] max-md:w-full">
     <img
       src={about.image}
       alt={about.author}
-      class="h-full w-full object-cover"
+      class="h-full w-full object-cover object-top"
       loading="lazy"
     />
   </div>
 
   <!-- Content -->
-  <div class="flex flex-1 flex-col justify-center gap-7 p-20 max-lg:p-12 max-md:p-6">
-    <span class="font-body text-xs font-medium tracking-[4px] text-accent">
+  <div class="flex flex-1 flex-col justify-center gap-6 p-20 max-lg:gap-5 max-lg:p-10 max-md:gap-5 max-md:px-6 max-md:py-10">
+    <span class="font-body text-xs font-medium tracking-[4px] text-accent max-md:text-[10px] max-md:tracking-[3px]">
       {about.overline}
     </span>
-    <h2 class="font-heading text-4xl font-semibold text-primary-light max-md:text-[28px]">
+    <h2 class="font-heading text-4xl font-normal text-primary-light max-lg:text-[30px] max-md:text-[26px]">
       {about.title}
     </h2>
     {about.paragraphs.map((p) => (
-      <p class="font-body text-[15px] leading-[1.8] text-neutral">{p}</p>
+      <p class="font-body text-[15px] leading-[1.8] text-neutral max-lg:text-[14px] max-md:text-[13px] max-md:leading-[1.7]">{p}</p>
     ))}
     <div class="h-px w-10 bg-accent"></div>
     <div class="flex flex-col gap-1">
-      <span class="font-display text-base italic text-secondary">
+      <span class="font-display text-base italic text-secondary max-md:text-[15px]">
         {about.author}
       </span>
-      <span class="font-body text-xs font-medium tracking-wide text-neutral">
+      <span class="font-body text-xs font-medium tracking-wide text-neutral max-md:text-[11px]">
         {about.role}
       </span>
     </div>

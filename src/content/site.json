@@ -16,18 +16,18 @@
     "headline": "Aromas que transforman tus espacios",
     "subheadline": "Velas, difusores y sprays artesanales con cera de soya 100% natural. Hechos a mano en República Dominicana.",
     "cta": "Descubre Nuestros Aromas",
-    "bgImage": "/images/hero-bg.png"
+    "bgImage": "/assets/hero-bg.jpg"
   },
   "footer": {
     "logo": "LISENZA STUDIO",
     "tagline": "Aromas artesanales para tus espacios",
-    "phone": "(829) 775-6348",
+    "phone": "+1 (809) 421-2103",
     "email": "lisenza.studio@gmail.com",
     "instagram": "@lisenza.studio",
     "copyright": "© 2025 Lisenza Studio. Santo Domingo, República Dominicana."
   },
   "whatsapp": {
-    "url": "https://wa.me/18297756348",
+    "url": "https://wa.me/18094212103",
     "cta": "Escríbenos por WhatsApp"
   }
 }

@@ -1,38 +1,79 @@
 ---
+import { Icon } from "astro-icon/components";
+
 interface Props {
-  number: string;
-  name: string;
-  description: string;
-  notes: string;
-  image: string;
-  imagePosition: "left" | "right";
+    number: string;
+    name: string;
+    description: string;
+    notes: string;
+    image: string;
+    imagePosition: "left" | "right";
 }
 
 const { number, name, description, notes, image, imagePosition } = Astro.props;
+
+const presentations = [
+  { label: "Vela", price: "RD$800", icon: "lucide:flame" },
+  { label: "Spray", price: "RD$500", icon: "lucide:spray-can" },
+  { label: "Difusor", price: "RD$750", icon: "lucide:wind" },
+];
 ---
 
-<div class:list={[
-  "flex h-[480px] px-[60px] max-lg:h-auto max-lg:flex-col max-lg:px-6",
-  imagePosition === "right" && "flex-row-reverse",
-]}>
-  <!-- Image -->
-  <div class="h-[480px] w-[720px] flex-shrink-0 overflow-hidden max-lg:h-[300px] max-lg:w-full">
-    <img src={image} alt={name} class="h-full w-full object-cover" loading="lazy" />
-  </div>
+<div
+    class:list={[
+        "flex px-[60px] max-lg:px-6 max-md:flex-col max-md:px-0",
+        imagePosition === "right" ? "flex-row-reverse" : "",
+    ]}
+>
+    <!-- Image -->
+    <div
+        class="aspect-[3/2] w-[55%] flex-shrink-0 overflow-hidden max-lg:w-[45%] max-md:aspect-[3/2] max-md:w-full"
+    >
+        <img
+            src={image}
+            alt={name}
+            class="h-full w-full object-cover"
+            loading="lazy"
+        />
+    </div>
 
-  <!-- Content -->
-  <div class="flex flex-1 flex-col justify-center gap-6 bg-primary px-[100px] py-[60px] max-lg:px-8 max-lg:py-10">
-    <span class="font-body text-[72px] font-bold leading-none tracking-tight text-accent/20 max-md:text-5xl">
-      {number}
-    </span>
-    <h3 class="font-heading text-[30px] font-semibold text-white max-md:text-2xl">
-      {name}
-    </h3>
-    <p class="font-display text-[15px] italic leading-[1.8] text-white/75">
-      {description}
-    </p>
-    <p class="font-body text-[11px] leading-[1.6] tracking-wide text-accent">
-      {notes}
-    </p>
-  </div>
+    <!-- Content -->
+    <div
+        class="flex flex-1 flex-col justify-center gap-5 bg-primary px-16 py-12 max-lg:gap-4 max-lg:px-8 max-lg:py-8 max-md:gap-4 max-md:px-6 max-md:py-7"
+    >
+        <span
+            class="font-body text-[72px] font-bold leading-none tracking-tight text-accent/20 max-lg:text-[56px] max-md:text-[40px]"
+        >
+            {number}
+        </span>
+        <h3
+            class="font-heading text-[30px] font-normal text-white max-lg:text-[24px] max-md:text-xl"
+        >
+            {name}
+        </h3>
+        <p
+            class="font-body text-[15px] leading-[1.8] text-white/85 max-lg:text-[14px] max-md:text-[13px] max-md:leading-[1.7]"
+        >
+            {description}
+        </p>
+        <p
+            class="font-body text-[11px] leading-[1.6] tracking-wide text-accent max-md:text-[10px]"
+        >
+            {notes}
+        </p>
+
+        <!-- Presentation buttons -->
+        <div class="flex flex-wrap gap-3 pt-1 max-lg:gap-2.5 max-md:flex-col max-md:gap-2 max-md:pt-0">
+            {presentations.map((p) => (
+                <button
+                    class="flex items-center gap-2 border border-accent/20 px-4 py-2.5 font-body text-xs font-medium tracking-wide text-white/80 transition-all hover:border-accent hover:text-white max-lg:px-3 max-lg:py-2 max-lg:text-[11px] max-md:justify-center max-md:px-4 max-md:py-3.5 max-md:text-[13px]"
+                >
+                    <Icon name={p.icon} class="size-3.5 max-md:size-4" />
+                    <span>{p.label}</span>
+                    <span class="text-accent/60">·</span>
+                    <span class="text-accent">{p.price}</span>
+                </button>
+            ))}
+        </div>
+    </div>
 </div>

@@ -7,8 +7,10 @@
     "preview": "astro preview"
   },
   "dependencies": {
+    "@fontsource/bona-nova": "^5.2.8",
     "@fontsource/libre-baskerville": "^5.2.10",
     "@fontsource/questrial": "^5.2.8",
+    "@fontsource/spectral": "^5.2.8",
     "@fontsource/work-sans": "^5.2.8",
     "astro": "^5.0.0",
     "astro-icon": "^1.1.0"

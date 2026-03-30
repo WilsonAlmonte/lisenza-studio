@@ -14,12 +14,12 @@ const {
 } = Astro.props;
 ---
 
-<div class="flex flex-col items-center gap-3">
-  <span class:list={["font-body text-xs font-medium tracking-[4px]", overlineColor]}>
+<div class="flex flex-col items-center gap-3 max-md:gap-2.5">
+  <span class:list={["font-body text-xs font-medium tracking-[4px] max-md:text-[10px] max-md:tracking-[3px]", overlineColor]}>
     {overline}
   </span>
-  <h2 class:list={["text-center font-heading text-4xl font-semibold max-md:text-[28px]", titleColor]}>
+  <h2 class:list={["text-center font-heading text-4xl font-normal max-lg:text-[32px] max-md:text-[26px]", titleColor]}>
     {title}
   </h2>
-  <div class="h-px w-[60px] bg-accent"></div>
+  <div class="h-px w-[60px] bg-accent max-md:w-10"></div>
 </div>

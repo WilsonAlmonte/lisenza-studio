@@ -1,39 +1,36 @@
 @import "tailwindcss";
-@import "@fontsource/work-sans/400.css";
-@import "@fontsource/work-sans/500.css";
-@import "@fontsource/work-sans/600.css";
-@import "@fontsource/work-sans/700.css";
+@import "@fontsource/questrial/400.css";
 @import "@fontsource/libre-baskerville/400.css";
 @import "@fontsource/libre-baskerville/400-italic.css";
-@import "@fontsource/questrial/400.css";
+@import "@fontsource/bona-nova/400.css";
 
 @theme {
-  /* Colors */
-  --color-primary: #1A1A1A;
-  --color-primary-light: #232323;
-  --color-secondary: #763B13;
-  --color-accent: #C4A882;
-  --color-neutral: #6B6158;
-  --color-background: #FAF7F3;
-  --color-background-warm: #F3EDE6;
-  --color-divider: #E5E0DA;
-  --color-dark: #0F0F0F;
-  --color-whatsapp: #25D366;
+    /* Colors */
+    --color-primary: #1a1a1a;
+    --color-primary-light: #232323;
+    --color-secondary: #763b13;
+    --color-accent: #c4a882;
+    --color-neutral: #6b6158;
+    --color-background: #faf7f3;
+    --color-background-warm: #f3ede6;
+    --color-divider: #e5e0da;
+    --color-dark: #0f0f0f;
+    --color-whatsapp: #25d366;
 
-  /* Fonts */
-  --font-heading: "Questrial", sans-serif;
-  --font-display: "Libre Baskerville", serif;
-  --font-body: "Work Sans", sans-serif;
+    /* Fonts */
+    --font-heading: "Bona Nova", serif;
+    --font-display: "Libre Baskerville", serif;
+    --font-body: "Questrial", sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: var(--font-body);
-  color: var(--color-primary);
-  background-color: var(--color-background);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: var(--font-body);
+    color: var(--color-primary);
+    background-color: var(--color-background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }

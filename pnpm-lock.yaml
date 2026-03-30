@@ -8,10 +8,16 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/bona-nova':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@fontsource/libre-baskerville':
         specifier: ^5.2.10
         version: 5.2.10
       '@fontsource/questrial':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/spectral':
         specifier: ^5.2.8
         version: 5.2.8
       '@fontsource/work-sans':
@@ -395,11 +401,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource/bona-nova@5.2.8':
+    resolution: {integrity: sha512-7BlL25IJ3ksxvAb8ITxJaPIS+mevoDe/SJQYJJpbiURJIX6WbMooLDOw5MtZa+kRS+U/b15jjmvznrOUqJhlFw==}
+
   '@fontsource/libre-baskerville@5.2.10':
     resolution: {integrity: sha512-Y/bGj4cOdWhAxU4+sBPen3MB5Og3t/WvezVL+05CJ7cvhDQUKpQFUuw/hm1IQKRc9u0lWs8VP2MKDOK2uQtloQ==}
 
   '@fontsource/questrial@5.2.8':
     resolution: {integrity: sha512-KetCQoMwGVGRu7k71pDL3R9xQBaFw2jj7yL5KLLv+69RoGqYGldebfGiHspOjaZvSe355lLJ5qbatdYq+Bl+ZA==}
+
+  '@fontsource/spectral@5.2.8':
+    resolution: {integrity: sha512-0CqZ8/z8A38BdeSz5t2NSd5tCO1R9P1k7SF2VpRLMbZTMSSR6+2Dk0ZBMfEQK/IrBLQS1HgHLMqpdTwRpnKpGQ==}
 
   '@fontsource/work-sans@5.2.8':
     resolution: {integrity: sha512-6LaHjVVgts+rnrcqvEkP2+iUB/jw1oDSYsGO0+TltAhnWki9Hnf/UGpgMQh2jcm0GEH8VqCPnq4PpmHLFzxXtQ==}
@@ -2279,9 +2291,13 @@ snapshots:
   '@esbuild/win32-x64@0.27.4':
     optional: true
 
+  '@fontsource/bona-nova@5.2.8': {}
+
   '@fontsource/libre-baskerville@5.2.10': {}
 
   '@fontsource/questrial@5.2.8': {}
+
+  '@fontsource/spectral@5.2.8': {}
 
   '@fontsource/work-sans@5.2.8': {}
 

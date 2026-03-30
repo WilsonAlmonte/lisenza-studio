@@ -13,6 +13,11 @@
       "description": "¿Tu orden es para obsequiar? Incluimos empaque de regalo sin costo adicional en tu orden."
     },
     {
+      "icon": "receipt-text",
+      "title": "Facturación",
+      "description": "Si deseas recibir tu factura con comprobante fiscal (NCF), notifícalo al momento de ordenar."
+    },
+    {
       "icon": "palette",
       "title": "Personalización",
       "description": "Si deseas adquirir productos personalizados con tu marca o para eventos especiales, contáctanos."

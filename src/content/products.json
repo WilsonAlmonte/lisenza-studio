@@ -1,30 +1,27 @@
 {
-  "overline": "NUESTROS PRODUCTOS",
-  "title": "Tres formas de llenar tu hogar de armonía",
+  "overline": "NUESTRAS PRESENTACIONES",
+  "title": "Tres formas de disfrutar tu aroma favorito",
   "items": [
     {
       "name": "Vela Aromática",
       "specs": "5.5oz · ~30 horas de quemado",
-      "description": "Vela artesanal de 5.5oz en cera de soya 100% natural. Presentada en elegante envase ámbar con tapa de bambú. Disponible en 7 fragancias únicas.",
+      "description": "Vela artesanal de 5.5oz en cera de soya 100% natural. Presentada en elegante envase ámbar con tapa de bambú.",
       "price": "RD$800",
-      "image": "/images/product-vela.png",
-      "btnText": "Agregar al Carrito"
+      "image": "/assets/vela-aromatica/vela.jpg"
     },
     {
       "name": "Linen & Room Spray",
       "specs": "2oz",
-      "description": "Spray de 2oz para ambientes y textiles. En frasco ámbar de vidrio, refresca tus espacios y telas sin dejar manchas. Disponible en 7 fragancias únicas.",
+      "description": "Spray de 2oz para ambientes y textiles. En frasco ámbar de vidrio, refresca tus espacios y telas sin dejar manchas.",
       "price": "RD$500",
-      "image": "/images/product-spray.png",
-      "btnText": "Agregar al Carrito"
+      "image": "/assets/spray/spray1.jpg"
     },
     {
       "name": "Difusor de Varillas de Caña",
       "specs": "2oz · 5–8 semanas",
-      "description": "Difusor de 2oz con varillas de caña en elegante frasco ámbar. Libera fragancia de forma continua durante 5 a 8 semanas, llenando cada rincón con calidez y armonía.",
+      "description": "Difusor de 2oz con varillas de caña en elegante frasco ámbar. Libera fragancia de forma continua durante 5 a 8 semanas.",
       "price": "RD$750",
-      "image": "/images/product-difusor.png",
-      "btnText": "Agregar al Carrito"
+      "image": "/assets/difusores/difusores.jpg"
     }
   ]
 }
