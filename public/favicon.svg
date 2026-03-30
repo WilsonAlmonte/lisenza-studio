@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="rounded">
+      <rect width="512" height="512" rx="80"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#FAFAFA"/>
+
+  <!-- Flame group, vertically centered -->
+  <g transform="translate(0, 61)">
+    <!-- Flame - elegant teardrop -->
+    <path d="
+      M256 80
+      C256 80 196 180 196 248
+      C196 282 223 310 256 310
+      C289 310 316 282 316 248
+      C316 180 256 80 256 80Z
+    " fill="#1a1a1a"/>
+
+    <!-- Inner flame cutout -->
+    <path d="
+      M256 160
+      C256 160 228 210 228 248
+      C228 264 240 276 256 276
+      C272 276 284 264 284 248
+      C284 210 256 160 256 160Z
+    " fill="#FAFAFA"/>
+  </g>
+
+</svg>
