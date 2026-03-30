@@ -1,0 +1,98 @@
+[
+  {
+    "id": "hero",
+    "title": "Hero Section",
+    "fields": [
+      { "id": "headline_es", "label": "Titular principal (español)", "type": "text", "placeholder": "Aromas artesanales para tus espacios" },
+      { "id": "headline_en", "label": "Main headline (English)", "type": "text", "placeholder": "Artisanal aromas for your spaces" },
+      { "id": "subheadline_es", "label": "Subtítulo (español)", "type": "textarea", "placeholder": "Velas, difusores y sprays hechos a mano con cera de soya 100% natural" },
+      { "id": "subheadline_en", "label": "Subheadline (English)", "type": "textarea", "placeholder": "Handcrafted candles, diffusers & sprays made with 100% natural soy wax" },
+      { "id": "cta_label_es", "label": "Texto del botón CTA (español)", "type": "text", "placeholder": "Ordena la Tuya" },
+      { "id": "cta_label_en", "label": "CTA button text (English)", "type": "text", "placeholder": "Order Yours" }
+    ]
+  },
+  {
+    "id": "products",
+    "title": "Product Lines",
+    "fields": [
+      {
+        "id": "items",
+        "label": "Product lines",
+        "type": "group",
+        "count": 3,
+        "fields": [
+          { "id": "name_es", "label": "Nombre del producto (español)", "type": "text" },
+          { "id": "name_en", "label": "Product name (English)", "type": "text" },
+          { "id": "description_es", "label": "Descripción (español)", "type": "textarea" },
+          { "id": "description_en", "label": "Description (English)", "type": "textarea" },
+          { "id": "size", "label": "Size / specs", "type": "text" },
+          { "id": "price", "label": "Price (RD$)", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fragrances",
+    "title": "Fragrances",
+    "fields": [
+      {
+        "id": "items",
+        "label": "Available fragrances",
+        "type": "group",
+        "count": 7,
+        "fields": [
+          { "id": "name", "label": "Fragrance name", "type": "text" },
+          { "id": "description_es", "label": "Descripción poética (español)", "type": "textarea" },
+          { "id": "description_en", "label": "Poetic description (English)", "type": "textarea" },
+          { "id": "notes", "label": "Scent notes", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "how_to_order",
+    "title": "How to Order",
+    "fields": [
+      {
+        "id": "steps",
+        "label": "Ordering steps",
+        "type": "group",
+        "count": 3,
+        "fields": [
+          { "id": "title_es", "label": "Título del paso (español)", "type": "text" },
+          { "id": "title_en", "label": "Step title (English)", "type": "text" },
+          { "id": "description_es", "label": "Descripción (español)", "type": "textarea" },
+          { "id": "description_en", "label": "Description (English)", "type": "textarea" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "about",
+    "title": "About / Brand Story",
+    "fields": [
+      { "id": "heading_es", "label": "Título de la sección (español)", "type": "text", "placeholder": "Nuestra Historia" },
+      { "id": "heading_en", "label": "Section heading (English)", "type": "text", "placeholder": "Our Story" },
+      { "id": "story_es", "label": "Historia de la marca (español)", "type": "textarea", "placeholder": "Cuéntanos cómo nació Lisenza Studio, qué te inspira, y qué hace especiales tus productos" },
+      { "id": "story_en", "label": "Brand story (English)", "type": "textarea", "placeholder": "Tell us how Lisenza Studio was born, what inspires you, and what makes your products special" }
+    ]
+  },
+  {
+    "id": "good_to_know",
+    "title": "Good to Know",
+    "fields": [
+      {
+        "id": "items",
+        "label": "Info items",
+        "type": "group",
+        "count": 4,
+        "fields": [
+          { "id": "title_es", "label": "Título (español)", "type": "text" },
+          { "id": "title_en", "label": "Title (English)", "type": "text" },
+          { "id": "description_es", "label": "Descripción (español)", "type": "textarea" },
+          { "id": "description_en", "label": "Description (English)", "type": "textarea" }
+        ]
+      }
+    ]
+  }
+]

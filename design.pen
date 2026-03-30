@@ -1,0 +1,2547 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "4zwqm",
+      "x": 0,
+      "y": 0,
+      "name": "Lisenza Studio Landing Page",
+      "width": 1440,
+      "fill": "#FAF7F3",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dMX9Q",
+          "name": "Demo Banner",
+          "width": "fill_container",
+          "fill": "#763B13",
+          "padding": [
+            12,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "7Ar4E",
+              "name": "bannerText",
+              "fill": "#FFFFFF",
+              "content": "Este es un demo de tu nueva página web — Creado por KwiHub",
+              "fontFamily": "$--font-body",
+              "fontSize": 13,
+              "fontWeight": "medium",
+              "letterSpacing": 0.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cBn1E",
+          "name": "Navigation",
+          "width": "fill_container",
+          "fill": "#FAF7F3",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QEYXw",
+              "name": "navLeft",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5VzKK",
+                  "name": "navLink1",
+                  "fill": "#232323",
+                  "content": "Productos",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 13,
+                  "fontWeight": "medium",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "ZaFKu",
+                  "name": "navLink2",
+                  "fill": "#232323",
+                  "content": "Aromas",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 13,
+                  "fontWeight": "medium",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "WAlYt",
+                  "name": "navLink3",
+                  "fill": "#232323",
+                  "content": "Nuestra Historia",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 13,
+                  "fontWeight": "medium",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "txABw",
+              "name": "navCenter",
+              "layout": "vertical",
+              "gap": 2,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GVUej",
+                  "name": "logoText",
+                  "fill": "#232323",
+                  "content": "LISENZA",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 28,
+                  "fontWeight": "600",
+                  "letterSpacing": 6
+                },
+                {
+                  "type": "text",
+                  "id": "Twxwc",
+                  "name": "logoSub",
+                  "fill": "#6B6158",
+                  "content": "S T U D I O",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 10,
+                  "fontWeight": "medium",
+                  "letterSpacing": 6
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XqgdS",
+              "name": "navRight",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eHYuY",
+                  "name": "langToggle",
+                  "fill": "#6B6158",
+                  "content": "ES / EN",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 12,
+                  "fontWeight": "medium",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "icon_font",
+                  "id": "RZWAx",
+                  "name": "cartIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "shopping-bag",
+                  "iconFontFamily": "lucide",
+                  "fill": "#232323"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "cHqci",
+          "name": "divider",
+          "fill": "#E5E0DA",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "jXTBB",
+          "name": "Hero Section",
+          "clip": true,
+          "width": "fill_container",
+          "height": 720,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HfENr",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Background",
+              "width": 1440,
+              "height": 720,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774872203971.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "Q3KVJ",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Overlay",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1A1A1AE6",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1A1A1ACC",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#1A1A1A99",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1440,
+              "height": 720
+            },
+            {
+              "type": "frame",
+              "id": "TkAiI",
+              "x": 120,
+              "y": 200,
+              "name": "Hero Content",
+              "width": 650,
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Jr44O",
+                  "name": "heroHeadline",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Aromas que transforman tus espacios",
+                  "lineHeight": 1.1,
+                  "fontFamily": "$--font-display",
+                  "fontSize": 80,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "r0QUr",
+                  "name": "heroSub",
+                  "fill": "#FFFFFFCC",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Velas, difusores y sprays artesanales con cera de soya 100% natural. Hechos a mano en República Dominicana.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$--font-secondary",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "sBt27",
+                  "name": "heroCta",
+                  "fill": "#763B13",
+                  "gap": 10,
+                  "padding": [
+                    16,
+                    40
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BQxr5",
+                      "name": "heroCtaText",
+                      "fill": "#FFFFFF",
+                      "content": "Descubre Nuestros Aromas",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "G51sd",
+                      "name": "heroCtaArrow",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ab6EH",
+          "name": "Product Lines",
+          "width": "fill_container",
+          "height": 922,
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hmszp",
+              "name": "prodHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UAITu",
+                  "name": "prodOverline",
+                  "fill": "#C4A882",
+                  "content": "NUESTROS PRODUCTOS",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 12,
+                  "fontWeight": "medium",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "iTG13",
+                  "name": "prodTitle",
+                  "fill": "#232323",
+                  "content": "Tres formas de llenar tu hogar de armonía",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 36,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "tbFtD",
+                  "name": "prodLine",
+                  "fill": "#C4A882",
+                  "width": 60,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zwU6O",
+              "name": "prodGrid",
+              "width": "fill_container",
+              "gap": 40,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4n1LU",
+                  "name": "Product - Vela",
+                  "width": 360,
+                  "fill": "#FAF7F3",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KLJfm",
+                      "name": "Vela Image",
+                      "width": "fill_container",
+                      "height": 380,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1774872260527.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Sa0HL",
+                      "name": "card1Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ad3TF",
+                          "name": "card1Name",
+                          "fill": "#232323",
+                          "content": "Vela Aromática",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mt8y5",
+                          "name": "card1Specs",
+                          "fill": "#6B6158",
+                          "content": "5.5oz · ~30 horas de quemado",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 12,
+                          "fontWeight": "medium",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "sOekV",
+                          "name": "card1Desc",
+                          "fill": "#6B6158",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Vela artesanal de 5.5oz en cera de soya 100% natural. Presentada en elegante envase ámbar con tapa de bambú. Disponible en 7 fragancias únicas.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "$--font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R7XJZ",
+                          "name": "card1Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NGnJO",
+                              "name": "card1Price",
+                              "fill": "#763B13",
+                              "content": "RD$800",
+                              "fontFamily": "$--font-display",
+                              "fontSize": 22,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "MMDyC",
+                              "name": "card1Btn",
+                              "fill": "#1A1A1A",
+                              "gap": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "zdl4R",
+                                  "name": "card1BtnText",
+                                  "fill": "#FFFFFF",
+                                  "content": "Agregar al Carrito",
+                                  "fontFamily": "$--font-body",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 0.5
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TC9IB",
+                  "name": "Product - Spray",
+                  "width": 360,
+                  "fill": "#FAF7F3",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4yhHM",
+                      "name": "Spray Image",
+                      "width": "fill_container",
+                      "height": 380,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1774872280031.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cOvOK",
+                      "name": "card2Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rEUV3",
+                          "name": "card2Name",
+                          "fill": "#232323",
+                          "content": "Linen & Room Spray",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yPb6m",
+                          "name": "card2Specs",
+                          "fill": "#6B6158",
+                          "content": "2oz",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 12,
+                          "fontWeight": "medium",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "GuRKF",
+                          "name": "card2Desc",
+                          "fill": "#6B6158",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Spray de 2oz para ambientes y textiles. En frasco ámbar de vidrio, refresca tus espacios y telas sin dejar manchas. Disponible en 7 fragancias únicas.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "$--font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KQcht",
+                          "name": "card2Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xNE1d",
+                              "name": "card2Price",
+                              "fill": "#763B13",
+                              "content": "RD$500",
+                              "fontFamily": "$--font-display",
+                              "fontSize": 22,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hNN0j",
+                              "name": "card2Btn",
+                              "fill": "#1A1A1A",
+                              "gap": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qg3bf",
+                                  "name": "card2BtnText",
+                                  "fill": "#FFFFFF",
+                                  "content": "Agregar al Carrito",
+                                  "fontFamily": "$--font-body",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 0.5
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RpfnY",
+                  "name": "Product - Difusor",
+                  "width": 360,
+                  "fill": "#FAF7F3",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "N9DTQ",
+                      "name": "Difusor Image",
+                      "width": "fill_container",
+                      "height": 380,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1774872304975.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z2SGe",
+                      "name": "card3Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        24,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cOSO2",
+                          "name": "card3Name",
+                          "fill": "#232323",
+                          "content": "Difusor de Varillas de Caña",
+                          "fontFamily": "$--font-display",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tCyW1",
+                          "name": "card3Specs",
+                          "fill": "#6B6158",
+                          "content": "2oz · 5–8 semanas",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 12,
+                          "fontWeight": "medium",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "HkIqv",
+                          "name": "card3Desc",
+                          "fill": "#6B6158",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Difusor de 2oz con varillas de caña en elegante frasco ámbar. Libera fragancia de forma continua durante 5 a 8 semanas, llenando cada rincón con calidez y armonía.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "$--font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ejxkS",
+                          "name": "card3Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "f4C12",
+                              "name": "card3Price",
+                              "fill": "#763B13",
+                              "content": "RD$750",
+                              "fontFamily": "$--font-display",
+                              "fontSize": 22,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ST9PJ",
+                              "name": "card3Btn",
+                              "fill": "#1A1A1A",
+                              "gap": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "kkmB9",
+                                  "name": "card3BtnText",
+                                  "fill": "#FFFFFF",
+                                  "content": "Agregar al Carrito",
+                                  "fontFamily": "$--font-body",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 0.5
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RBzds",
+          "name": "Fragrances Section",
+          "width": "fill_container",
+          "height": 4197,
+          "fill": "#1A1A1A",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            100,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "izMUD",
+              "name": "fragHeader",
+              "width": "fill_container",
+              "height": 227,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                0,
+                120
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aoAME",
+                  "name": "fragOverline",
+                  "fill": "#C4A882",
+                  "content": "NUESTRAS FRAGANCIAS",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 11,
+                  "fontWeight": "medium",
+                  "letterSpacing": 6
+                },
+                {
+                  "type": "text",
+                  "id": "nnGC7",
+                  "name": "fragTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Siete aromas, una experiencia única",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 44,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "rectangle",
+                  "id": "XKzwd",
+                  "name": "fragLine",
+                  "fill": "$--accent-gold",
+                  "width": 80,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tsPRx",
+              "name": "Fragrance - Lavanda",
+              "width": "fill_container",
+              "height": 480,
+              "padding": [
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "95b29",
+                  "name": "row1Img",
+                  "width": 720,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774872352451.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "WDdND",
+                  "name": "row1Content",
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": "#1A1A1A",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    60,
+                    100
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3kCMU",
+                      "name": "num1",
+                      "fill": "#C4A88230",
+                      "content": "01",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": -2
+                    },
+                    {
+                      "type": "text",
+                      "id": "jZ1m2",
+                      "name": "row1Name",
+                      "fill": "#FFFFFF",
+                      "content": "Lavanda & Ámbar",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 30,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UBV6P",
+                      "name": "row1Desc",
+                      "fill": "#FFFFFFBB",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ámbar egipcio y lavanda francesa en armonía: un aroma sofisticado, sereno y atemporal.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S0C5O",
+                      "name": "row1Notes",
+                      "fill": "#C4A882",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notas: Lavanda francesa, ámbar egipcio, mirra negra, haba tonka, almizcle egipcio, salvia",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SNJcW",
+              "name": "div1",
+              "width": "fill_container",
+              "padding": [
+                0,
+                120
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "Q7k3E",
+                  "name": "line1",
+                  "fill": "#C4A88220",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1fHU7",
+              "name": "Fragrance - Lino Blanco",
+              "width": "fill_container",
+              "height": 480,
+              "padding": [
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DD8pF",
+                  "name": "row2Content",
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": "#1A1A1A",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    60,
+                    100
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XYcHv",
+                      "name": "num2",
+                      "fill": "#C4A88230",
+                      "content": "02",
+                      "fontFamily": "Work Sans",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": -2
+                    },
+                    {
+                      "type": "text",
+                      "id": "cYAzL",
+                      "name": "row2Name",
+                      "fill": "#FFFFFF",
+                      "content": "Lino Blanco",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 30,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HdhIB",
+                      "name": "row2Desc",
+                      "fill": "#FFFFFFBB",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Como un abrazo de telas recién lavadas, flores suaves y acordes de algodón para llenar tus días en frescura y ligereza cotidiana.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7NA9v",
+                      "name": "row2Notes",
+                      "fill": "#C4A882",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notas: Cítrico, Melocotón, Lirio, Jazmín, Rosa, Verde, Madera, Ámbar, Almizcle",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SyGJG",
+                  "name": "row2Img",
+                  "width": 720,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774872380099.png",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kCWIj",
+              "name": "div2",
+              "width": "fill_container",
+              "padding": [
+                0,
+                120
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "DysEP",
+                  "name": "line2",
+                  "fill": "#C4A88220",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Feptl",
+              "name": "Fragrance - Caoba",
+              "width": "fill_container",
+              "height": 480,
+              "padding": [
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Mnvmj",
+                  "name": "row3Img",
+                  "width": 720,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774872394413.png",
+                    "mode": "fill"
+                  },
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 0
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "enabled": false,
+                    "color": "#000000"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "ZegxN",
+                  "name": "row3Content",
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": "#1A1A1A",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    60,
+                    100
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q6FLl",
+                      "name": "num3",
+                      "fill": "#C4A88230",
+                      "content": "03",
+                      "fontFamily": "Work Sans",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": -2
+                    },
+                    {
+                      "type": "text",
+                      "id": "XWquy",
+                      "name": "row3Name",
+                      "fill": "#FFFFFF",
+                      "content": "Caoba & Coco",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 30,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Fsvty",
+                      "name": "row3Desc",
+                      "fill": "#FFFFFFBB",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Caoba y coco en armonía, suavizados con sándalo y vainilla, realzados por un toque cítrico contemporáneo.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "B097l",
+                      "name": "row3Notes",
+                      "fill": "#C4A882",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notas: Limón, Coco, Vainilla, Sándalo, Almizcle",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WkTwk",
+              "name": "div3",
+              "width": "fill_container",
+              "padding": [
+                0,
+                120
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "CnpNr",
+                  "name": "line3",
+                  "fill": "#C4A88220",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6OKwr",
+              "name": "Fragrance - Palo Santo",
+              "width": "fill_container",
+              "height": 480,
+              "padding": [
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tjoHu",
+                  "name": "row4Content",
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": "#1A1A1A",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    60,
+                    100
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sPhrL",
+                      "name": "num4",
+                      "fill": "#C4A88230",
+                      "content": "04",
+                      "fontFamily": "Work Sans",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": -2
+                    },
+                    {
+                      "type": "text",
+                      "id": "bJHqS",
+                      "name": "row4Name",
+                      "fill": "#FFFFFF",
+                      "content": "Palo Santo & Pachulí",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 30,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8l7fv",
+                      "name": "row4Desc",
+                      "fill": "#FFFFFFBB",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sándalo y pachulí dulce, realzados por especias cálidas, en un aroma elegante y acogedor.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jCwqV",
+                      "name": "row4Notes",
+                      "fill": "#C4A882",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notas: Pimienta negra, clavo, nuez moscada, Lavanda, pachulí, vainilla, ámbar, sándalo, olíbano",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zcrsG",
+                  "name": "row4Img",
+                  "width": 720,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774872567600.png",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AFTQI",
+              "name": "div4",
+              "width": "fill_container",
+              "padding": [
+                0,
+                120
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "AB4kI",
+                  "name": "line4",
+                  "fill": "#C4A88220",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sjtip",
+              "name": "Fragrance - Vainilla",
+              "width": "fill_container",
+              "height": 480,
+              "padding": [
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vmvDl",
+                  "name": "row5Img",
+                  "width": 720,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774872658542.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "A5H0g",
+                  "name": "row5Content",
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": "#1A1A1A",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    60,
+                    100
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aymsK",
+                      "name": "num5",
+                      "fill": "#C4A88230",
+                      "content": "05",
+                      "fontFamily": "Work Sans",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": -2
+                    },
+                    {
+                      "type": "text",
+                      "id": "xJBwv",
+                      "name": "row5Name",
+                      "fill": "#FFFFFF",
+                      "content": "Vainilla",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 30,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZxeWT",
+                      "name": "row5Desc",
+                      "fill": "#FFFFFFBB",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vainilla mantequillosa, maple dorado y coco tostado en una fragancia dulce y reconfortante.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KSjeE",
+                      "name": "row5Notes",
+                      "fill": "#C4A882",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notas: Mantequilla, Coco, Vainilla, Arce",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8TQ4U",
+              "name": "div5",
+              "width": "fill_container",
+              "padding": [
+                0,
+                120
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "9etli",
+                  "name": "line5",
+                  "fill": "#C4A88220",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lkyny",
+              "name": "Fragrance - Rocio",
+              "width": "fill_container",
+              "height": 480,
+              "padding": [
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nyDXy",
+                  "name": "row6Content",
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": "#1A1A1A",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    60,
+                    100
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t4VJh",
+                      "name": "num6",
+                      "fill": "#C4A88230",
+                      "content": "06",
+                      "fontFamily": "Work Sans",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": -2
+                    },
+                    {
+                      "type": "text",
+                      "id": "RKm7Q",
+                      "name": "row6Name",
+                      "fill": "#FFFFFF",
+                      "content": "Rocío & Té",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 30,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xv5gX",
+                      "name": "row6Desc",
+                      "fill": "#FFFFFFBB",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Pepino, lima y flores suaves en una fragancia limpia, fresca y luminosa.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K4tui",
+                      "name": "row6Notes",
+                      "fill": "#C4A882",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notas: Naranja, Lima, Hojas verdes, Pepino, Rosa, Jazmín, Almizcle",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BsBiX",
+                  "name": "row6Img",
+                  "width": 720,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774872633852.png",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iprqK",
+              "name": "div6",
+              "width": "fill_container",
+              "padding": [
+                0,
+                120
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "bm6MF",
+                  "name": "line6",
+                  "fill": "#C4A88220",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eJjNk",
+              "name": "Fragrance - Eucalipto",
+              "width": "fill_container",
+              "height": 480,
+              "padding": [
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zDkBR",
+                  "name": "row7Img",
+                  "width": 720,
+                  "height": 480,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1774872667599.png",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "IAlY4",
+                  "name": "row7Content",
+                  "width": "fill_container",
+                  "height": 480,
+                  "fill": "#1A1A1A",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    60,
+                    100
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IBpEw",
+                      "name": "num7",
+                      "fill": "#C4A88230",
+                      "content": "07",
+                      "fontFamily": "Work Sans",
+                      "fontSize": 72,
+                      "fontWeight": "700",
+                      "letterSpacing": -2
+                    },
+                    {
+                      "type": "text",
+                      "id": "DnlWg",
+                      "name": "row7Name",
+                      "fill": "#FFFFFF",
+                      "content": "Eucalipto & Menta",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 30,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L1nx5",
+                      "name": "row7Desc",
+                      "fill": "$--text-white",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Menta verde y eucalipto en una fragancia fresca, herbal y energizante.",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UOW4v",
+                      "name": "row7Notes",
+                      "fill": "$--accent-gold",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Notas: Limón, Eucalipto, Menta verde, Almizcle",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pUq5S",
+          "name": "How to Order",
+          "width": "fill_container",
+          "fill": "#0F0F0F",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "P2j6M",
+              "name": "howToHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TQpTO",
+                  "name": "howToOverline",
+                  "fill": "#C4A882",
+                  "content": "CÓMO ORDENAR",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 12,
+                  "fontWeight": "medium",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "6idgR",
+                  "name": "howToTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Tu fragancia favorita, en tres simples pasos",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 36,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "447sS",
+                  "name": "howToLine",
+                  "fill": "#C4A882",
+                  "width": 60,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dG5wg",
+              "name": "stepsRow",
+              "width": "fill_container",
+              "gap": 32,
+              "padding": [
+                0,
+                40
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uizqQ",
+                  "name": "step1Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#C4A88215"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "jkHy9",
+                      "name": "goldAccent1",
+                      "fill": "$--accent-gold",
+                      "width": 40,
+                      "height": 3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FC9LN",
+                      "name": "iconWrap1",
+                      "width": 72,
+                      "height": 72,
+                      "fill": "#763B1320",
+                      "cornerRadius": 36,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "aDRgW",
+                          "name": "icon1",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--accent-gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "j2xla",
+                      "name": "stepNum1",
+                      "fill": "$--accent-gold",
+                      "content": "01",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "9DtgF",
+                      "name": "stepTitle1",
+                      "fill": "#FFFFFF",
+                      "content": "Confirmar disponibilidad",
+                      "textAlign": "center",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s02qg",
+                      "name": "stepDesc1",
+                      "fill": "#FFFFFF99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Escríbenos por WhatsApp para confirmar disponibilidad, aroma y presentación.",
+                      "lineHeight": 1.7,
+                      "textAlign": "center",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cNxWe",
+                  "name": "step2Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#C4A88215"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "7xLM5",
+                      "name": "goldAccent2",
+                      "fill": "$--accent-gold",
+                      "width": 40,
+                      "height": 3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sOUkW",
+                      "name": "iconWrap2",
+                      "width": 72,
+                      "height": 72,
+                      "fill": "#763B1320",
+                      "cornerRadius": 36,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "FK05q",
+                          "name": "icon2",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "credit-card",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--accent-gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "7AUbB",
+                      "name": "stepNum2",
+                      "fill": "$--accent-gold",
+                      "content": "02",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "hTsCO",
+                      "name": "stepTitle2",
+                      "fill": "#FFFFFF",
+                      "content": "Realizar pago",
+                      "textAlign": "center",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k74gp",
+                      "name": "stepDesc2",
+                      "fill": "#FFFFFF99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Confirma tu orden realizando el pago vía transferencia (Banco BHD o Banco Popular).",
+                      "lineHeight": 1.7,
+                      "textAlign": "center",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Memt1",
+                  "name": "step3Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#C4A88215"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "hzP1S",
+                      "name": "goldAccent3",
+                      "fill": "$--accent-gold",
+                      "width": 40,
+                      "height": 3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CpaG4",
+                      "name": "iconWrap3",
+                      "width": 72,
+                      "height": 72,
+                      "fill": "#763B1320",
+                      "cornerRadius": 36,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "SoqwC",
+                          "name": "icon3",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "truck",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--accent-gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ejpio",
+                      "name": "stepNum3",
+                      "fill": "$--accent-gold",
+                      "content": "03",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "hVBsR",
+                      "name": "stepTitle3",
+                      "fill": "#FFFFFF",
+                      "content": "Coordinar envío",
+                      "textAlign": "center",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1M8RP",
+                      "name": "stepDesc3",
+                      "fill": "#FFFFFF99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Completa tus datos de envío. El delivery tiene un costo adicional desde RD$250.",
+                      "lineHeight": 1.7,
+                      "textAlign": "center",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lNyXq",
+              "name": "waCta",
+              "fill": "#25D366",
+              "cornerRadius": 4,
+              "gap": 12,
+              "padding": [
+                18,
+                48
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "gJpAY",
+                  "name": "waIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "message-circle",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "text",
+                  "id": "7rf0q",
+                  "name": "waText",
+                  "fill": "#FFFFFF",
+                  "content": "Escríbenos por WhatsApp",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 15,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jLhZo",
+          "name": "Brand Story",
+          "width": "fill_container",
+          "height": 563,
+          "fill": "#FAF7F3",
+          "children": [
+            {
+              "type": "frame",
+              "id": "q20jk",
+              "name": "Owner Photo",
+              "width": 580,
+              "height": 650,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774872750864.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "3UIwj",
+              "name": "aboutContent",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": 80,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IrnDg",
+                  "name": "aboutOverline",
+                  "fill": "#C4A882",
+                  "content": "NUESTRA HISTORIA",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 12,
+                  "fontWeight": "medium",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "fxpAJ",
+                  "name": "aboutTitle",
+                  "fill": "#232323",
+                  "content": "Un aroma puede cambiar tu día",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 36,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "U1YDd",
+                  "name": "aboutDesc",
+                  "fill": "#6B6158",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Lisenza Studio nació de la pasión por transformar espacios cotidianos en experiencias sensoriales. Cada producto es elaborado artesanalmente en República Dominicana con cera de soya 100% natural y fragancias cuidadosamente seleccionadas.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "$--font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "456W1",
+                  "name": "aboutDesc2",
+                  "fill": "#6B6158",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Creemos que un buen aroma tiene el poder de cambiar tu día — desde el primer momento que enciendes una vela hasta la última nota que permanece en tu habitación. Nuestro compromiso es ofrecer productos puros, elegantes y accesibles que llenen tu hogar de calidez y armonía.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "$--font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "hwml4",
+                  "name": "aboutQuoteLine",
+                  "fill": "#C4A882",
+                  "width": 40,
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "C1Zby",
+                  "name": "aboutAuthor",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LNCTh",
+                      "name": "aboutName",
+                      "fill": "#763B13",
+                      "content": "— Leslie Terrero",
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hxiE7",
+                      "name": "aboutRole",
+                      "fill": "#6B6158",
+                      "content": "Fundadora, Lisenza Studio",
+                      "fontFamily": "$--font-body",
+                      "fontSize": 12,
+                      "fontWeight": "medium",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lFO09",
+          "name": "Good to Know",
+          "width": "fill_container",
+          "fill": "$--bg-warm",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Lnveo",
+              "name": "gtkHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PGFgo",
+                  "name": "gtkOverline",
+                  "fill": "#C4A882",
+                  "content": "BUENO SABER",
+                  "fontFamily": "$--font-body",
+                  "fontSize": 12,
+                  "fontWeight": "medium",
+                  "letterSpacing": 4
+                },
+                {
+                  "type": "text",
+                  "id": "W68Wo",
+                  "name": "gtkTitle",
+                  "fill": "#232323",
+                  "content": "Información adicional",
+                  "fontFamily": "$--font-display",
+                  "fontSize": 36,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "Wh3di",
+                  "name": "gtkLine",
+                  "fill": "#C4A882",
+                  "width": 60,
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9zD4K",
+              "name": "gtkGrid",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Waexx",
+                  "name": "gtk1",
+                  "width": "fill_container",
+                  "fill": "#FAF7F3",
+                  "cornerRadius": 2,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E0DA"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "bqACg",
+                      "name": "gtk1Icon",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "flask-conical",
+                      "iconFontFamily": "lucide",
+                      "fill": "#763B13"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rNoJ0",
+                      "name": "gtk1Title",
+                      "fill": "#232323",
+                      "content": "¿No sabes qué aroma elegir?",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JqvYG",
+                      "name": "gtk1Desc",
+                      "fill": "#6B6158",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Solicita nuestro kit de mini muestras gratuitas y descubre tu fragancia favorita. Solo pagas el costo de envío hasta tu ubicación.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "16hKj",
+                  "name": "gtk2",
+                  "width": "fill_container",
+                  "fill": "#FAF7F3",
+                  "cornerRadius": 2,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E0DA"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "eWPAS",
+                      "name": "gtk2Icon",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "gift",
+                      "iconFontFamily": "lucide",
+                      "fill": "#763B13"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fpnDX",
+                      "name": "gtk2Title",
+                      "fill": "#232323",
+                      "content": "¿Regalos?",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5AgQ3",
+                      "name": "gtk2Desc",
+                      "fill": "#6B6158",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "¿Tu orden es para obsequiar? Incluimos empaque de regalo sin costo adicional en tu orden.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uRfhn",
+                  "name": "gtk4",
+                  "width": "fill_container",
+                  "fill": "#FAF7F3",
+                  "cornerRadius": 2,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E0DA"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "6yJP9",
+                      "name": "gtk4Icon",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "palette",
+                      "iconFontFamily": "lucide",
+                      "fill": "#763B13"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7FgIR",
+                      "name": "gtk4Title",
+                      "fill": "#232323",
+                      "content": "Personalización",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6dunF",
+                      "name": "gtk4Desc",
+                      "fill": "#6B6158",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Si deseas adquirir productos personalizados con tu marca o para eventos especiales, contáctanos.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$--font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uU5M6",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 322,
+          "fill": "#1A1A1A",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            60,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "nT4ba",
+              "name": "footerTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hA9aB",
+                  "name": "footerBrand",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fYSsi",
+                      "name": "footerLogo",
+                      "fill": "#FFFFFF",
+                      "content": "LISENZA STUDIO",
+                      "fontFamily": "$--font-display",
+                      "fontSize": 22,
+                      "fontWeight": "600",
+                      "letterSpacing": 4
+                    },
+                    {
+                      "type": "text",
+                      "id": "qe4rQ",
+                      "name": "footerTagline",
+                      "fill": "#FFFFFF88",
+                      "content": "Aromas artesanales para tus espacios",
+                      "fontFamily": "$--font-secondary",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vPSii",
+                  "name": "footerContact",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pQbW8",
+                      "name": "footerWa",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "KAayR",
+                          "name": "footerWaIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "phone",
+                          "iconFontFamily": "lucide",
+                          "fill": "#C4A882"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sJmmY",
+                          "name": "footerWaText",
+                          "fill": "#FFFFFFBB",
+                          "content": "(829) 775-6348",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "S06zo",
+                      "name": "footerEmail",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "dfJ9t",
+                          "name": "footerEmailIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "mail",
+                          "iconFontFamily": "lucide",
+                          "fill": "#C4A882"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8Xlsu",
+                          "name": "footerEmailText",
+                          "fill": "#FFFFFFBB",
+                          "content": "lisenza.studio@gmail.com",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mCQT4",
+                      "name": "footerIg",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "ovW0j",
+                          "name": "footerIgIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#C4A882"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5THyz",
+                          "name": "footerIgText",
+                          "fill": "#FFFFFFBB",
+                          "content": "@lisenza.studio",
+                          "fontFamily": "$--font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "GFCkw",
+              "name": "footerDiv",
+              "fill": "#FFFFFF15",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "E4wlm",
+              "name": "footerBottom",
+              "fill": "#FFFFFF55",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "© 2025 Lisenza Studio. Santo Domingo, República Dominicana.",
+              "textAlign": "center",
+              "fontFamily": "$--font-body",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "8mspb",
+      "x": 1500,
+      "y": 100,
+      "name": "WhatsApp Floating Button",
+      "width": 60,
+      "height": 60,
+      "fill": "#25D366",
+      "cornerRadius": 30,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000040",
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "blur": 16
+      },
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "wQP0R",
+          "name": "waFloatIcon",
+          "width": 28,
+          "height": 28,
+          "iconFontName": "message-circle",
+          "iconFontFamily": "lucide",
+          "fill": "#FFFFFF"
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "--accent-gold": {
+      "type": "color",
+      "value": "#C4A882"
+    },
+    "--bg-dark": {
+      "type": "color",
+      "value": "#0F0F0F"
+    },
+    "--bg-page": {
+      "type": "color",
+      "value": "#FAF7F3"
+    },
+    "--bg-primary": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "--bg-warm": {
+      "type": "color",
+      "value": "#F3EDE6"
+    },
+    "--border-light": {
+      "type": "color",
+      "value": "#E5E0DA"
+    },
+    "--brand-brown": {
+      "type": "color",
+      "value": "#763B13"
+    },
+    "--font-body": {
+      "type": "string",
+      "value": "Work Sans"
+    },
+    "--font-display": {
+      "type": "string",
+      "value": "Questrial"
+    },
+    "--font-secondary": {
+      "type": "string",
+      "value": "Libre Baskerville"
+    },
+    "--neutral": {
+      "type": "color",
+      "value": "#6B6158"
+    },
+    "--text-muted": {
+      "type": "color",
+      "value": "#9A9088"
+    },
+    "--text-primary": {
+      "type": "color",
+      "value": "#232323"
+    },
+    "--text-white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Amber & Linen",
+    "description": "Closest to Lisenza's existing brand — warm, artisanal, intimate. Large product photography with generous whitespace, asymmetric text-image pairings.",
+    "color_palette": {
+      "primary": "#763b13",
+      "secondary": "#d2b299",
+      "accent": "#A67B5B",
+      "neutral": "#232323",
+      "background": "#F5EDE4"
+    },
+    "typography": "Bon Voyage for display headings (brand font), Inter for body text (clean, modern readability)",
+    "layout_style": "Editorial warmth — large product photography with generous whitespace, asymmetric text-image pairings like P.F. Candle Co. Sections breathe with 80-100px vertical spacing. Products in a soft 2-column grid on desktop.",
+    "tone_keywords": ["warm", "handcrafted", "intimate", "inviting"],
+    "reference_urls": ["https://pfcandleco.com", "https://olfactoriecandles.com", "https://brooklyncandlestudio.com"],
+    "status": "discarded"
+  },
+  {
+    "name": "Maison Noire",
+    "description": "Elevated luxury — high contrast, editorial sophistication inspired by Diptyque and Boy Smells. Full-bleed hero imagery, black section dividers, products on clean white with generous negative space. Editorial rhythm with alternating image-left/image-right sections.",
+    "color_palette": {
+      "primary": "#1A1A1A",
+      "secondary": "#763b13",
+      "accent": "#C4A882",
+      "neutral": "#6B6158",
+      "background": "#FAF7F3"
+    },
+    "typography": "Bon Voyage for display headings (brand font), Libre Baskerville for secondary headings, Neuzeit Grotesk for body",
+    "layout_style": "High-contrast minimal — full-bleed hero imagery, black section dividers, products on clean white with generous negative space. Diptyque-style editorial rhythm with alternating image-left/image-right sections. 100-120px section spacing.",
+    "tone_keywords": ["sophisticated", "luxurious", "refined", "timeless"],
+    "reference_urls": ["https://www.diptyqueparis.com", "https://boysmells.com", "https://brooklyncandlestudio.com"],
+    "status": "selected"
+  },
+  {
+    "name": "Jardín Tropical",
+    "description": "Fresh, modern, Dominican-inflected — lighter, more colorful, approachable. Airy grid with product carousel, generous padding, soft rounded corners on cards.",
+    "color_palette": {
+      "primary": "#763b13",
+      "secondary": "#E8D5C0",
+      "accent": "#8B7355",
+      "neutral": "#4A4035",
+      "background": "#FEFBF6"
+    },
+    "typography": "Bon Voyage for display headings (brand font), Work Sans (light/regular) for body — clean, airy like Voluspa",
+    "layout_style": "Airy grid — product carousel with horizontal scroll, generous padding (Voluspa-style). Soft rounded corners on cards. Light, breathable sections with 60-80px spacing. Full-width lifestyle imagery interspersed between product sections.",
+    "tone_keywords": ["fresh", "approachable", "natural", "contemporary"],
+    "reference_urls": ["https://www.voluspa.com", "https://thenewsavant.com", "https://www.worldmarket.com"],
+    "status": "discarded"
+  }
+]
