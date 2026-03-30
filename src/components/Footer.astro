@@ -37,7 +37,12 @@ import site from "../content/site.json";
   <div class="h-px w-full bg-white/[0.08]"></div>
 
   <!-- Copyright -->
-  <p class="w-full text-center font-body text-[11px] text-white/35">
-    {site.footer.copyright}
-  </p>
+  <div class="flex w-full flex-col items-center gap-1.5">
+    <p class="font-body text-[11px] text-white/35">
+      {site.footer.copyright}
+    </p>
+    <p class="font-body text-[11px] text-white/35">
+      Made by <a href="https://kwihub.com" target="_blank" rel="noopener noreferrer" class="text-white/50 underline underline-offset-2 transition-colors hover:text-accent">KwiHub</a>
+    </p>
+  </div>
 </footer>
