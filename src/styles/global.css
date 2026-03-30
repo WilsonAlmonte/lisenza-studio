@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1A1A1A;
+  --color-secondary: #763b13;
+  --color-accent: #C4A882;
+  --color-neutral: #6B6158;
+  --color-background: #FAF7F3;
+  --font-heading: "Bon Voyage", serif;
+  --font-display: "Libre Baskerville", serif;
+  --font-body: "Work Sans", sans-serif;
+}
