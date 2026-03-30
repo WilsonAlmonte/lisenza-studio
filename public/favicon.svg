@@ -8,8 +8,8 @@
   <!-- Background -->
   <rect width="512" height="512" rx="80" fill="#FAFAFA"/>
 
-  <!-- Flame group, vertically centered -->
-  <g transform="translate(0, 61)">
+  <!-- Flame group, centered and scaled up -->
+  <g transform="translate(256, 256) scale(1.55) translate(-256, -195)">
     <!-- Flame - elegant teardrop -->
     <path d="
       M256 80
